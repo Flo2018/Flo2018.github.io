@@ -1,4 +1,6 @@
-Font:
+Font: slabo (Headings): <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+(Body text): Bellefair: <link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
+
 Background Color: Lavender Blush
 Web Page: 
   Parallax
