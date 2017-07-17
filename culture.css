@@ -1,0 +1,89 @@
+body{
+  font: 400 15px Bellefair;
+  line-height: 1.8;
+  color: #818181;
+}
+
+.jumbotron{
+  background-image:url(cult.jpg);
+  background-repeat:no-repeat;
+  color: white;
+  padding: 100px 25px;
+  font-family: Bellefair;
+
+}
+
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.bg-grey {
+    background-color: white;
+}
+
+.container-fluid{
+  padding: 60px 50px;
+}
+
+.logo{
+  font-size: 200px;
+  color: #FF4C4C;
+
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #FF4C4C;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #FF4C4C !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #FF4C4C;
+}
+
+.carousel-indicators li {
+    border-color: #FF4C4C;
+}
+
+.carousel-indicators li.active {
+    background-color: #FF4C4C;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
