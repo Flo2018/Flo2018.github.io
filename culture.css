@@ -1,5 +1,5 @@
 body{
-  font: 400 15px Bellefair;
+  font: 400 15px Fresca;
   line-height: 1.8;
   color: #818181;
 }
@@ -9,7 +9,7 @@ body{
   background-repeat:no-repeat;
   color: white;
   padding: 100px 25px;
-  font-family: Bellefair;
+  font-family: Rammetto One;
 
 }
 
@@ -51,10 +51,11 @@ body{
     background-color: #FF4C4C;
     z-index: 9999;
     border: 0;
-    font-size: 12px !important;
+    font-size: 18px !important;
     line-height: 1.42857143 !important;
     letter-spacing: 4px;
     border-radius: 0;
+    font-family: Rammetto One;
 }
 
 .navbar li a, .navbar .navbar-brand {

@@ -1,5 +1,5 @@
 body{
-  font: 400 15px Bellefair;
+  font: 400 15px Fresca;
   line-height: 1.8;
   color: #818181;
 }
@@ -9,7 +9,7 @@ body{
   background-color: #FFB6C1;
   color: black;
   padding: 100px 25px;
-  font-family: Bellefair;
+  font-family: Rammetto One ;
 }
 
 .bg-grey{
@@ -76,11 +76,11 @@ body{
     background-color: #FFB6C1;
     z-index: 9999;
     border: 0;
-    font-size: 12px !important;
+    font-size: 18px !important;
     line-height: 1.42857143 !important;
     letter-spacing: 4px;
     border-radius: 0;
-    font-family: Bellefair;
+    font-family: Rammetto One;
 }
 
 .navbar li a, .navbar .navbar-brand {
@@ -88,11 +88,45 @@ body{
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #f4511e !important;
+    color: #FFB6C1 !important;
     background-color: #fff !important;
 }
 
 .navbar-default .navbar-toggle {
     border-color: transparent;
     color: #fff !important;
+}
+
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    /* The duration of the animation */
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible;
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
 }

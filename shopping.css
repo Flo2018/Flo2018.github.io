@@ -1,0 +1,64 @@
+body{
+  font: 400 15px Fresca;
+  line-height: 1.8;
+  color: #818181;
+}
+
+
+.jumbotron{
+  background-color: #DDA0DD;
+  color: black;
+  padding: 100px 25px;
+  font-family: Rammetto One;
+}
+
+.bg-grey{
+  background-color:#f6f6f6;
+}
+
+.container-fluid{
+  padding: 60px 50px;
+}
+
+
+li a.active {
+    color: black;
+    background-color: white ;
+}
+.navbar {
+    margin-bottom: 0;
+    background-color: #DDA0DD;
+    z-index: 9999;
+    border: 0;
+    font-size: 18px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Rammetto One;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #DDA0DD !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}

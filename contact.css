@@ -1,5 +1,5 @@
 body{
-  font: 400 15px Bellefair;
+  font: 400 15px Fresca;
   line-height: 1.8;
   color: #818181;
 }
@@ -9,7 +9,7 @@ body{
   background-color: #90EE90;
   color: black;
   padding: 100px 25px;
-  font-family: Bellefair;
+  font-family: Rammetto One;
 }
 
 .navbar {
@@ -17,11 +17,11 @@ body{
     background-color: #90EE90;
     z-index: 9999;
     border: 0;
-    font-size: 12px !important;
+    font-size: 18px !important;
     line-height: 1.42857143 !important;
     letter-spacing: 4px;
     border-radius: 0;
-    font-family: Bellefair;
+    font-family: Rammetto One;
 }
 
 .navbar li a, .navbar .navbar-brand {
@@ -29,7 +29,7 @@ body{
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: black !important;
+    color: #90EE90 !important;
     background-color: #fff !important;
 }
 
@@ -42,7 +42,7 @@ body{
 .column {
     float: left;
     width: 33.3%;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
     padding: 0 8px;
 }
 
@@ -110,7 +110,7 @@ body{
 .card {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    width:40%;
+    width:81%;
     margin-left:2em;
 }
 
@@ -122,11 +122,12 @@ body{
 /* Add some padding inside the card container */
 .container {
     padding: 2px 16px;
+    max-width: 100%;
 }
 .column{
   float: left;
   width:33.3%;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
   padding: 0 8px;
 }
 @media (max-width: 650px) {
@@ -134,4 +135,9 @@ body{
     width: 100%;
     display: block;
   }
+}
+
+.row {
+  max-width: 100%;
+
 }
